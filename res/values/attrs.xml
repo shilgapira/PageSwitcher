@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PageSwitcher">
+    	<attr name="rail" format="reference" />
+    	<attr name="handle" format="reference" />
+    	<attr name="marker" format="reference" />
+    	<attr name="axis" format="dimension" />
+    	<attr name="previewer" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="PagePreviewer">
+    	<attr name="frame" format="reference" />
+    	<attr name="marker" />
+    	<attr name="axis" />
+    	<attr name="alpha" format="float" />
+    </declare-styleable>
+</resources>

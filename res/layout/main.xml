@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/com.gilshapira.PageSwitcher"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<com.gilshapira.PageSwitcher.PageSwitcher
+		android:id="@+id/switcher"
+		android:layout_width="fill_parent"
+		android:layout_height="60dp"
+		android:layout_gravity="bottom" 
+		android:background="@drawable/switcher_background"
+		app:handle="@drawable/switcher_handle"
+		app:rail="@drawable/switcher_rail"
+		app:marker="@drawable/switcher_marker"
+		app:previewer="@+id/previewer"
+		app:axis="30dp" />
+		
+	<com.gilshapira.PageSwitcher.PagePreviewer
+		android:id="@id/previewer"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		app:frame="@drawable/preview_frame"
+		app:marker="@drawable/preview_marker"
+		app:axis="38dp" />
+	
+</FrameLayout>

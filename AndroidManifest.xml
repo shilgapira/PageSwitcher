@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.gilshapira.PageSwitcher">
+	
+	<uses-sdk
+		android:targetSdkVersion="4" />
+
+	<application
+		android:label="PageSwitcher">
+		
+		<activity
+			android:name=".PageSwitcherDemo"
+			android:label="PageSwitcher">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+	</application>
+	
+</manifest>
